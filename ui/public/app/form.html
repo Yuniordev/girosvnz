@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+
+    
+    
+    <link rel="stylesheet" href="../css/form.css" type="text/css" media="all" />
+    <title>Giros Venezuela</title>
+  </head>
+  <body>
+  <div class="packform">
+  <form class="contact-form">
+
+    <div class="homeback">
+      <a class="inicio" href="../app/main.html">
+        <img class="homeimg" src="../img/back.svg" alt="volver">
+      </a>
+     </div> 
+
+      <label for="">Nombre</label><br />
+      <input class="name" type="text" placeholder="nombre completo" /><br />
+      <label for="">Numero</label><br /> 
+      <input class="number" type="number" placeholder="numero de celular" /><br />
+      <label for="">Email</label><br />
+      <input class="email" type="email" placeholder="email" /><br />
+      <label for="">Mensaje</label><br />
+      <textarea
+        class="message"
+        name=""
+        id=""
+        cols="30"
+        rows="8"
+        placeholder="espesifique el monto y el tipo de divisa"></textarea>
+      </textarea><br />
+      <button onclick="sendForm()" type="submit">Enviar</button>
+    </form>
+  </div>
+   
+   <script src="https://www.gstatic.com/firebasejs/8.2.0/firebase.js"></script>
+
+   <script src="../js/main.js"></script>
+   <script src="../js/app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,73 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    
+ }
+
+ body {
+    background:#ececec;
+    margin-left: 15px;
+    
+  }
+
+p {
+    background: #1323DB;
+    border-radius: 5px;
+    color: white;
+    height: 2.5rem;
+
+    
+}
+
+fieldset {
+    width: 90%;
+    border-radius: 5px;
+    background: white;
+    border: none;
+    box-shadow: 1px 1px 1px #999;
+    margin-bottom: 10px;
+
+}
+
+input {
+    border: none;
+    height: 2rem;
+    border-radius: 5px;
+    
+}
+
+h3 {
+
+    margin: 5px;
+   
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+
+h5 {
+    margin: 0;
+}
+
+h1 {
+   margin-bottom: 10px;
+   font-size: 25px ;
+}
+
+.values {
+   
+ padding-bottom: 10px;
+
+
+}
+
+img {
+    position: relative;
+    width: 30px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+  }

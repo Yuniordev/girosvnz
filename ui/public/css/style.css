@@ -1,0 +1,207 @@
+*{
+   font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #E8E8E8;
+}
+
+.cabezera {
+  padding-top: 10px;
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.img {
+  width: 1.5rem;
+  
+   
+   
+}
+
+.buscar {
+ padding-top: 10px;
+  display: flex;
+  justify-content: center;
+  
+}
+.input {
+  box-shadow: 1px 1px 1px #999;
+}
+
+#buscar {
+  border-radius: 5px;
+  border: 0;
+  width: 90%;
+  height: 2rem;
+}
+
+.titulo {
+  display: flex;
+  justify-content: space-between;
+  margin:  1px 20px 0;
+  height: 48px;
+  padding-bottom: 55px;
+  width: 90%;
+}
+.titulo2 {
+    
+    padding-top:15px;
+    display: flex;
+    justify-content: space-between;
+    margin: 1px 20px 0;
+    height: 48px;
+     }
+
+.titulolink {
+  padding-top: 15px;
+}
+
+
+.titulo h1 {
+  font-size:  25px;
+}
+
+.titulo H4 {
+  color:  #2937D4;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 95%;
+  margin: 0 auto;
+  align-content: center;
+  text-align: center;
+
+
+}
+  
+
+
+.cart {
+  background: white;
+  box-sizing: border-box;
+  margin-bottom: 0px;
+  height: 100px;
+  width: 100px;
+  border-radius: 5px;
+  padding-top: 0px;
+  box-shadow: 1px 1px 1px #999;
+  
+  
+  
+ 
+
+}
+    
+  
+.cart h4 {
+  margin: 5px 0;
+  
+}
+  
+.icono2 {
+  width: 45%;
+  margin: 20px;
+  margin-bottom: 0px;
+  
+}
+.icono {
+  width: 45%;
+  margin:20px;
+  margin-bottom: 0px;
+  
+  
+}
+
+.cart:hover {
+ background: #2937D4;
+ color: white;
+ 
+}
+
+.icono:hover {
+  filter: invert(100%);
+}
+
+.cajon {
+  display: flex;
+  flex-wrap: wrap;
+  width: 90%;
+  /*max-width: $cont-width;*/
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.cajas {
+  margin-left:  2;
+  margin-right: 2;
+  box-sizing: border-box;
+  /*Estilo*/
+  background: white;
+  padding: 9px 0;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  height: 85px;
+  box-shadow: 1px 1px 1px #999;
+}
+
+.coti {
+  margin: 0 20px 0 ;
+  
+  font-size: 20px;
+}
+h5 {
+  color: #565757;
+  font-size: 15px;
+  
+  
+    margin-left: 20px;
+  
+    
+}
+
+h5:hover, .cajas:hover {
+  background: #2937D4;
+  color: white;
+  
+}
+
+.formulario {
+
+text-decoration:none;
+}
+
+.formulario:visited {color:black;} 
+
+.dropdown-menu {
+  background: #2937D4;
+  
+}
+.dropdown-item {
+  color: white;
+  
+}
+
+.cart a {
+  text-decoration:none;
+}
+
+.paypal:visited {
+  color:black;
+}
+
+.paypal {
+  text-decoration: none;
+  max-width: 100%;
+}
+
+.container {
+  max-width: 100%;
+}
+
+

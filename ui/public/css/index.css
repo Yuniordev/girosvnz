@@ -1,0 +1,61 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  background: #FFFFFF;
+ 
+}
+
+.caracter {
+  display: flex;
+  justify-content: center;
+}
+
+.chart{
+ margin-top: 30px;
+ max-width: 90%;
+}
+
+.textos {
+ width: 90%;
+ margin: 20px;
+ font-size: 20px;
+}
+
+.sub {
+  margin-bottom: 2px;
+  margin-top: 3px;
+  font-size: 20px;
+}
+
+.maintex {
+  margin-top: 4px;
+  margin-bottom: 30px;
+}
+
+a {
+  display: flex;
+  justify-content: center;
+  text-decoration:none;
+  height: 45px;
+  font-size: 25px;
+  margin-top: 20px;
+}
+ 
+button {
+  font-size: 19px;
+  width: 90%;
+  border: none;
+  background-color: #2937D4;
+  color: #fff;
+  border-radius: 5px;
+}
+
+
+
+
+
+ 
+
+

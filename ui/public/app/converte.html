@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    
+    <title>Calc-divisas</title>
+     
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;900&display=swap" rel="stylesheet">
+
+    
+    <link rel="stylesheet" href="../css/converte.css">
+    
+</head>
+
+<body>
+   
+    <header>
+
+        <h1>Calculadora de divisas</h1>
+        <a class="inicio" href="../index.html">
+            <img class="homeimg" src="../img/back.svg" alt="volver">
+          </a>
+        
+      
+    </header>
+    <main>
+        <form id="caca" action="" method="get">
+            <fieldset>
+                <h3>Equivalencias</h3>
+                <div class="values">
+                  <p><input type="text" id="usd" placeholder="0.00"> USD</p>
+                  <p><input type="text" id="cop" placeholder="0.00"> COP</p>
+                  <p><input type="text" id="ves" placeholder="0.00"> VES</p>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <h3>Referencias</h3>
+                <div class="valuess">
+                <p><input type="text" value="1.00" readonly> USD  </p>
+                <h5>Tasas de cambio</h5>
+                <p><input type="text" id="USDCOP"> COP</p>
+                <p><input type="text" id="USDVES"> VEF</p>
+                <h5>1 VES en COP</h5>
+                <p><input type="text" id="VESCOP" readonly>  Tasa</p>
+            </div>
+            </fieldset>
+        </form>
+        <ul>
+                <li>USD: Dolar de Estados Unidos.</li>
+                <li>COP: Peso de Colombia.</li>
+                <li>VEF: Bolivar Fuerte.</li>
+            </ul>
+    </main>
+    
+<script src="../js/converte.js"></script>
+
+</body>
+
+</html>
